@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3876C75128798C8600E32EFF /* fintechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876C75028798C8600E32EFF /* fintechApp.swift */; };
+		3876C75328798C8600E32EFF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876C75228798C8600E32EFF /* SettingsView.swift */; };
+		3876C75528798C8700E32EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3876C75428798C8700E32EFF /* Assets.xcassets */; };
+		3876C75828798C8700E32EFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3876C75728798C8700E32EFF /* Preview Assets.xcassets */; };
+		3876C76228798C8700E32EFF /* fintechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876C76128798C8700E32EFF /* fintechTests.swift */; };
+		3876C76C28798C8700E32EFF /* fintechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876C76B28798C8700E32EFF /* fintechUITests.swift */; };
+		3876C76E28798C8700E32EFF /* fintechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876C76D28798C8700E32EFF /* fintechUITestsLaunchTests.swift */; };
+		3876C77B2879A7F000E32EFF /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876C77A2879A7F000E32EFF /* SettingsRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3876C75E28798C8700E32EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3876C74528798C8600E32EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3876C74C28798C8600E32EFF;
+			remoteInfo = fintech;
+		};
+		3876C76828798C8700E32EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3876C74528798C8600E32EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3876C74C28798C8600E32EFF;
+			remoteInfo = fintech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3876C74D28798C8600E32EFF /* fintech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fintech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3876C75028798C8600E32EFF /* fintechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fintechApp.swift; sourceTree = "<group>"; };
+		3876C75228798C8600E32EFF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3876C75428798C8700E32EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3876C75728798C8700E32EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3876C75D28798C8700E32EFF /* fintechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fintechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3876C76128798C8700E32EFF /* fintechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fintechTests.swift; sourceTree = "<group>"; };
+		3876C76728798C8700E32EFF /* fintechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fintechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3876C76B28798C8700E32EFF /* fintechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fintechUITests.swift; sourceTree = "<group>"; };
+		3876C76D28798C8700E32EFF /* fintechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fintechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3876C77A2879A7F000E32EFF /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3876C74A28798C8600E32EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3876C75A28798C8700E32EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3876C76428798C8700E32EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3876C74428798C8600E32EFF = {
+			isa = PBXGroup;
+			children = (
+				3876C74F28798C8600E32EFF /* fintech */,
+				3876C76028798C8700E32EFF /* fintechTests */,
+				3876C76A28798C8700E32EFF /* fintechUITests */,
+				3876C74E28798C8600E32EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3876C74E28798C8600E32EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3876C74D28798C8600E32EFF /* fintech.app */,
+				3876C75D28798C8700E32EFF /* fintechTests.xctest */,
+				3876C76728798C8700E32EFF /* fintechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3876C74F28798C8600E32EFF /* fintech */ = {
+			isa = PBXGroup;
+			children = (
+				3876C75028798C8600E32EFF /* fintechApp.swift */,
+				3876C75228798C8600E32EFF /* SettingsView.swift */,
+				3876C77A2879A7F000E32EFF /* SettingsRow.swift */,
+				3876C75428798C8700E32EFF /* Assets.xcassets */,
+				3876C75628798C8700E32EFF /* Preview Content */,
+			);
+			path = fintech;
+			sourceTree = "<group>";
+		};
+		3876C75628798C8700E32EFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3876C75728798C8700E32EFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3876C76028798C8700E32EFF /* fintechTests */ = {
+			isa = PBXGroup;
+			children = (
+				3876C76128798C8700E32EFF /* fintechTests.swift */,
+			);
+			path = fintechTests;
+			sourceTree = "<group>";
+		};
+		3876C76A28798C8700E32EFF /* fintechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3876C76B28798C8700E32EFF /* fintechUITests.swift */,
+				3876C76D28798C8700E32EFF /* fintechUITestsLaunchTests.swift */,
+			);
+			path = fintechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3876C74C28798C8600E32EFF /* fintech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3876C77128798C8700E32EFF /* Build configuration list for PBXNativeTarget "fintech" */;
+			buildPhases = (
+				3876C74928798C8600E32EFF /* Sources */,
+				3876C74A28798C8600E32EFF /* Frameworks */,
+				3876C74B28798C8600E32EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fintech;
+			productName = fintech;
+			productReference = 3876C74D28798C8600E32EFF /* fintech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3876C75C28798C8700E32EFF /* fintechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3876C77428798C8700E32EFF /* Build configuration list for PBXNativeTarget "fintechTests" */;
+			buildPhases = (
+				3876C75928798C8700E32EFF /* Sources */,
+				3876C75A28798C8700E32EFF /* Frameworks */,
+				3876C75B28798C8700E32EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3876C75F28798C8700E32EFF /* PBXTargetDependency */,
+			);
+			name = fintechTests;
+			productName = fintechTests;
+			productReference = 3876C75D28798C8700E32EFF /* fintechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3876C76628798C8700E32EFF /* fintechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3876C77728798C8700E32EFF /* Build configuration list for PBXNativeTarget "fintechUITests" */;
+			buildPhases = (
+				3876C76328798C8700E32EFF /* Sources */,
+				3876C76428798C8700E32EFF /* Frameworks */,
+				3876C76528798C8700E32EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3876C76928798C8700E32EFF /* PBXTargetDependency */,
+			);
+			name = fintechUITests;
+			productName = fintechUITests;
+			productReference = 3876C76728798C8700E32EFF /* fintechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3876C74528798C8600E32EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3876C74C28798C8600E32EFF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3876C75C28798C8700E32EFF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3876C74C28798C8600E32EFF;
+					};
+					3876C76628798C8700E32EFF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3876C74C28798C8600E32EFF;
+					};
+				};
+			};
+			buildConfigurationList = 3876C74828798C8600E32EFF /* Build configuration list for PBXProject "fintech" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3876C74428798C8600E32EFF;
+			productRefGroup = 3876C74E28798C8600E32EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3876C74C28798C8600E32EFF /* fintech */,
+				3876C75C28798C8700E32EFF /* fintechTests */,
+				3876C76628798C8700E32EFF /* fintechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3876C74B28798C8600E32EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3876C75828798C8700E32EFF /* Preview Assets.xcassets in Resources */,
+				3876C75528798C8700E32EFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3876C75B28798C8700E32EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3876C76528798C8700E32EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3876C74928798C8600E32EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3876C75328798C8600E32EFF /* SettingsView.swift in Sources */,
+				3876C75128798C8600E32EFF /* fintechApp.swift in Sources */,
+				3876C77B2879A7F000E32EFF /* SettingsRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3876C75928798C8700E32EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3876C76228798C8700E32EFF /* fintechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3876C76328798C8700E32EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3876C76E28798C8700E32EFF /* fintechUITestsLaunchTests.swift in Sources */,
+				3876C76C28798C8700E32EFF /* fintechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3876C75F28798C8700E32EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3876C74C28798C8600E32EFF /* fintech */;
+			targetProxy = 3876C75E28798C8700E32EFF /* PBXContainerItemProxy */;
+		};
+		3876C76928798C8700E32EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3876C74C28798C8600E32EFF /* fintech */;
+			targetProxy = 3876C76828798C8700E32EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3876C76F28798C8700E32EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3876C77028798C8700E32EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3876C77228798C8700E32EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fintech/Preview Content\"";
+				DEVELOPMENT_TEAM = DQY88LHZ7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.fintech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3876C77328798C8700E32EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fintech/Preview Content\"";
+				DEVELOPMENT_TEAM = DQY88LHZ7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.fintech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3876C77528798C8700E32EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQY88LHZ7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.fintechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fintech.app/fintech";
+			};
+			name = Debug;
+		};
+		3876C77628798C8700E32EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQY88LHZ7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.fintechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fintech.app/fintech";
+			};
+			name = Release;
+		};
+		3876C77828798C8700E32EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQY88LHZ7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.fintechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fintech;
+			};
+			name = Debug;
+		};
+		3876C77928798C8700E32EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQY88LHZ7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.fintechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fintech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3876C74828798C8600E32EFF /* Build configuration list for PBXProject "fintech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3876C76F28798C8700E32EFF /* Debug */,
+				3876C77028798C8700E32EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3876C77128798C8700E32EFF /* Build configuration list for PBXNativeTarget "fintech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3876C77228798C8700E32EFF /* Debug */,
+				3876C77328798C8700E32EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3876C77428798C8700E32EFF /* Build configuration list for PBXNativeTarget "fintechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3876C77528798C8700E32EFF /* Debug */,
+				3876C77628798C8700E32EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3876C77728798C8700E32EFF /* Build configuration list for PBXNativeTarget "fintechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3876C77828798C8700E32EFF /* Debug */,
+				3876C77928798C8700E32EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3876C74528798C8600E32EFF /* Project object */;
+}
