@@ -11,7 +11,7 @@ import SwiftUI
 struct fintechApp: App {
     var body: some Scene {
         WindowGroup {
-            SettingsView()
+            IntroView()
         }
     }
 }
